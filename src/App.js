@@ -1,13 +1,15 @@
-import crane from './assets/crane.png';
+import Construction from './components/construction/construction'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <img src={crane} className='crane' alt='under construction'/>
-      <div>
-        <span>This website is currently under construction!<br/> Please check back soon!</span>
-      </div>
+    <div className='App'>
+      <Header /> 
+      <Construction />
+      <Footer />
     </div>
   );
 }
