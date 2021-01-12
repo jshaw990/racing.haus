@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className='header-cont'>
             <div className='header'>
-                Racing.Haus
+                <a href='/'>Racing.Haus</a>
             </div>
         </div>
     )
